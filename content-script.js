@@ -5,6 +5,13 @@
 html:not(.r6tracker-noads-off) .v3-grid--sidebar-left {
   grid-template-columns: auto !important;
 }
+.ad-container {
+    display: none !important;
+}
+
+#transparentInner {
+    display: none !important;
+}
 `.trim();
 
     const isOverview = () =>

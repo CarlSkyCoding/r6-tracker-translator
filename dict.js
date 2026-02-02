@@ -380,6 +380,7 @@ window.exactDict = {
     "Copied to clipboard!": "已复制到剪贴板！",
     "iOS & Android": "iOS 和 安卓 应用",
     "Rainbow Six: Siege Tracker": "彩虹六号：围攻 数据追踪应用",
+    "No matches found for the selected filters.": "未找到符合所选筛选条件的比赛",
     "here": "这里",
     "Close": "关闭",
     "Excludes": "不包括",

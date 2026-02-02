@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Tracker.gg R6 自动替换翻译",
+    "version": "1.0",
+    "description": "自动将 Tracker.gg 网页英文替换为中文",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://r6.tracker.network/r6siege/profile/ubi/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://r6.tracker.network/r6siege/profile/ubi/*"
+            ],
+            "js": [
+                "dict.js",
+                "content-script.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}

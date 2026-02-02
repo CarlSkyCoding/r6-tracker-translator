@@ -303,6 +303,10 @@ html:not(.r6tracker-noads-off) .v3-grid--sidebar-left {
         root.querySelectorAll(sel).forEach((el) => el.remove());
     };
 
+    const removeAdIframes = (root = document) => {
+        root.querySelectorAll('iframe[title="advertisement"], iframe[width="160px"][height="600px"]').forEach(f => f.remove());
+    };
+
     const hideWAbbr = (root = document) => {
         root.querySelectorAll("span.inline-flex abbr").forEach(abbr => {
             const t = (abbr.textContent || "").trim().toUpperCase();
@@ -478,6 +482,7 @@ html:not(.r6tracker-noads-off) .v3-grid--sidebar-left {
     // 初次处理：先标记免替换区域，再做替换
     markProfileIdNoReplace(document);
     wipeByClass(document);
+    removeAdIframes(document);
     hideWAbbr(document);
     fixWinsLosses(document);
     processSubtree(document.body);
@@ -490,6 +495,7 @@ html:not(.r6tracker-noads-off) .v3-grid--sidebar-left {
         markProfileIdNoReplace(document);
 
         wipeByClass(document);
+        removeAdIframes(document);
         hideWAbbr(document);
         fixWinsLosses(document);
 

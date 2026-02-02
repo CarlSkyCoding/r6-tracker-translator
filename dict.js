@@ -553,4 +553,7 @@ window.exactDict = {
     "Views": "浏览",
 };
 
-window.delClass = ["bordered-davert"];
+window.delClass = [
+    "bordered-davert",
+    "side-ad",
+];

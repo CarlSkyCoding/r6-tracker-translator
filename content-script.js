@@ -305,6 +305,7 @@ html:not(.r6tracker-noads-off) .v3-grid--sidebar-left {
 
     const removeAdIframes = (root = document) => {
         root.querySelectorAll('iframe[title="advertisement"], iframe[width="160px"][height="600px"]').forEach(f => f.remove());
+        root.querySelectorAll("#transparentCover").forEach(el => el.remove());
     };
 
     const hideWAbbr = (root = document) => {

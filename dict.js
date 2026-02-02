@@ -5,6 +5,17 @@ window.exactDict = {
      ******************************************************************/
 
     /******************************************************************
+     * Time units / Months
+     ******************************************************************/
+    "yr ago": "年前",
+    "mo ago": "月之前",
+    "w ago": "周之前",
+    "d ago": "天之前",
+    "h ago": "小时前",
+    "m ago": "分钟前",
+    "s ago": "秒钟之前",
+
+    /******************************************************************
      * Header / More games / 游戏选择
      ******************************************************************/
     "More Games": "更多游戏",
@@ -53,6 +64,10 @@ window.exactDict = {
     "Leaderboards": "排行榜",
     "Ranked": "排位赛",
     "Custom": "自定义",
+
+    // Mode
+    "Bomb": "炸弹",
+    "Hostage": "人质",
 
     // LFG / Rank me
     "LFG": "寻找队伍",
@@ -177,6 +192,7 @@ window.exactDict = {
     "Kills/Game": "每局击杀",
     "Kills/Round": "每回合击杀",
     "TKs": "队友击杀",
+    "Rollback": "回滚",
 
     // Clutches
     "Rounds - Clutches": "回合 - 残局",
@@ -209,6 +225,11 @@ window.exactDict = {
     "Killed 3 enemies in one round": "单回合击杀 3 名敌人",
     "Killed 4 enemies in one round": "单回合击杀 4 名敌人",
     "Killed 5 enemies in one round": "单回合击杀 5 名敌人",
+    "Won a 1v1 clutch": "1打1翻盘",
+    "Won a 1v2 clutch": "1打2翻盘",
+    "Won a 1v3 clutch": "1打3翻盘",
+    "Won a 1v4 clutch": "1打4翻盘",
+    "Won a 1v5 clutch": "1打5翻盘",
     "Lost a 1v1 clutch": "1打1翻盘失败",
     "Lost a 1v2 clutch": "1打2翻盘失败",
     "Lost a 1v3 clutch": "1打3翻盘失败",
@@ -255,8 +276,7 @@ window.exactDict = {
     "ROUND #": "第 # 回合",
     "Round #": "第 # 回合",
     "Rnd #": "第 # 回合",
-    "#m": "# 分",
-    "#s": "# 秒",
+    "#m #s": "时长 #:",
     "OT": "加时",
 
     /******************************************************************
@@ -313,6 +333,8 @@ window.exactDict = {
     "Most picked operator roles": "最常选择的干员角色",
     "forward": "之前",
 
+    "Filters": "筛选条件",
+
     "Breach": "突破",
     "Front Line": "前线",
     "Intel": "情报",
@@ -321,7 +343,11 @@ window.exactDict = {
     "Crowd Control": "人群控制",
     "Anti-Entry": "反入侵",
     "Trapper": "陷阱",
+    "Statistic": "统计数据",
+    "View by": "查看方式",
     "Day": "天",
+    "Week": "周",
+    "Month": "月",
 
     /******************************************************************
      * Find players / Favorites
@@ -340,7 +366,11 @@ window.exactDict = {
     "Sit tight, we're fetching the stats.": "请稍候，我们正在获取数据",
     "This value is missing from our data": "无法查询到此数据",
     "Reports": "报告",
+    "ENCOUNTERS": "缘分",
+    "Your encounters data is being loaded.": "正在加载您的缘分数据",
     "Getting reports from the filing cabinet.": "正在从档案柜获取报告",
+    "Data Unavailable": "数据不可用",
+    "No encounters found.": "未找到缘分数据",
 
     /******************************************************************
      * Footer / Misc / Legal
@@ -385,17 +415,6 @@ window.exactDict = {
     "Close": "关闭",
     "Excludes": "不包括",
     "playlists.": "游戏模式",
-
-    /******************************************************************
-     * Time units / Months
-     ******************************************************************/
-    "yr ago": "年前",
-    "mo ago": "月之前",
-    "w ago": "周之前",
-    "d ago": "天之前",
-    "h ago": "小时前",
-    "m ago": "分钟前",
-    "s ago": "秒钟之前",
 
     "Jan #": "1 月 # 日",
     "Feb #": "2 月 # 日",

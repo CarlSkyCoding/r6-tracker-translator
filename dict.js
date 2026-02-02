@@ -135,6 +135,7 @@ window.exactDict = {
     "Kills": "击杀数",
     "Deaths": "死亡数",
     "Kills/Match": "场均击杀",
+    "Kills/match": "场均击杀",
     "Abandons": "弃赛数",
 
     "Lifetime Ranked": "排位赛总览",
@@ -154,6 +155,7 @@ window.exactDict = {
      ******************************************************************/
     "Overall": "共",
     "History": "历史",
+    "K/D Ratio": "K/D 比率",
 
     "Search Keyword": "搜索关键词",
     "Game": "对局",

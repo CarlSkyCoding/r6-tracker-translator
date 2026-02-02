@@ -259,6 +259,10 @@ html:not(.r6tracker-noads-off) .v3-grid--sidebar-left {
                 nameSpan.parentElement;
             markNoReplace(host);
         });
+
+        root
+            .querySelectorAll('div.truncate.text-16.font-medium')
+            .forEach(el => el.setAttribute("data-no-replace", "1"));
     };
 
     const walkText = (root, cb) => {

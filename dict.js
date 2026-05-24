@@ -116,6 +116,8 @@ window.exactDict = {
     "Siege Cup": "围攻杯",
     "Event": "活动模式",
     "Arcade": "街机模式",
+    "BOP THE TEDDY": "彩虹是魔法",
+    "AIR CUTE ONE": "萌军一号",
     "All Seasons": "所有赛季",
 
     "Top": "前",
@@ -274,7 +276,7 @@ window.exactDict = {
     "D": "死亡",
     "HS%": "爆头率",
     "K/D/A": "击杀 / 死亡 / 助攻",
-    "RP": "段位分",
+    "RPΔ": "段位分",
     "MMR": "原段位分",
     "ROUND #": "第 # 回合",
     "Round #": "第 # 回合",
@@ -292,6 +294,7 @@ window.exactDict = {
     "3K": "三杀",
     "4K": "四杀",
     "5K": "五杀",
+    "Ace": "五杀",
 
     "Team A": "蓝方",
     "Team B": "红方",
@@ -320,6 +323,7 @@ window.exactDict = {
     "Died every round": "在每回合都死亡",
     "Streak": "连胜",
     "Level": "等级",
+    "Battle Pass": "战斗通行证",
 
     /******************************************************************
      * Encounters / Trends
@@ -407,6 +411,8 @@ window.exactDict = {
     "Live updating your most recent matches...": "正在实时更新您最近的比赛...",
     "Updating...": "正在更新...",
     "This profile has not been claimed, is it yours? Claim it now for more control.": "此个人资料尚未被认领，是您的吗？立即认领可以控制此资料。",
+    "Enjoy 1 month of Discord Nitro, on us with Tracker XP!": "享受 1 个月的 Discord Nitro，免费赠送，使用 Tracker XP！",
+    "View Rules": "查看规则",
     "Profile": "个人资料",
     "Copy Link": "复制链接",
     "Click to copy to clipboard": "点击以复制到剪贴板",
@@ -414,6 +420,9 @@ window.exactDict = {
     "iOS & Android": "iOS 和 安卓 应用",
     "Rainbow Six: Siege Tracker": "彩虹六号：围攻 数据追踪应用",
     "No matches found for the selected filters.": "未找到符合所选筛选条件的比赛",
+    "We could not find any operator data. Please check your filter criteria.": "我们无法找到任何干员数据。请检查您的筛选条件。",
+    "We could not find any map data. Please check your filter criteria.": "我们无法找到任何地图数据。请检查您的筛选条件。",
+    "not Found": "未找到",
     "here": "这里",
     "Close": "关闭",
     "Excludes": "不包括",
@@ -483,6 +492,7 @@ window.exactDict = {
 
     // 赛季名称
     "Daybreak": "破晓行动",
+    "Silent Hunt": "静默狩猎行动",
     "Tenfold Pursuit": "十倍追猎行动",
     "High Stakes": "高风险行动",
     "Prep Phase": "准备阶段行动",
